@@ -1,0 +1,261 @@
+/*NAVBAR*/
+@media screen and (max-width: 828px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .nav-links a {
+        color: rgb(250, 250, 250);
+    }
+    
+    /* Exibe os links de navegação quando o menu é aberto */
+    #menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+/*Início */
+@media screen and (max-width: 828px) {
+    .inicio {
+        padding: 0 20px; /* Ajuste de padding para telas menores */
+        background-image: url('fontes/woman.jpg');
+    }
+
+    .inicio-content {
+        text-align: center;
+    }
+    .inicio h1 {
+        font-size: 2rem; /* Reduz o tamanho do título */
+    }
+
+    .inicio p {
+        font-size: 1.5rem; /* Ajuste de tamanho da frase */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Ajuste de tamanho do botão */
+    }
+}
+/*PARCEIROS*/
+@media screen and (max-width: 768px) {
+    .parceiros {
+        background: linear-gradient(to bottom, #000000, #000000); /* Gradiente de cor simples */
+    }
+    .parceiros h2{
+        color: #d3d3d3;
+    }
+    .parceiros p{
+        color: #d3d3d3;
+    }
+    .logos img {
+        max-width: 120px; /* Reduz o tamanho das logos em telas pequenas */
+    }
+    .parceiros h2{
+        font-size: 1.5rem;
+    }
+    .parcerios p{
+        font-size: 1rem;
+    } 
+}
+/*PARCEIROS*/
+@media screen and (max-width: 480px) {
+    .logos img {
+        max-width: 100px; /* Mais redução do tamanho para telas muito pequenas */
+    }
+    .parceiros h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        color: #d3d3d3;
+    }
+    .parceiros p {
+        font-size: 1rem;
+        margin-bottom: 40px;
+        color: #d3d3d3;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* SOBRE NOS */
+@media (max-width: 768px) {
+    .cards {
+        justify-content: center;
+    }
+    .sobre-nos h2 {
+        font-size: 1.5rem;
+    }
+    
+    .sobre-nos p {
+        font-size: 1rem;
+    }
+}
+/* SOBRE NOS */
+@media (max-width: 480px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 70%;
+    }
+    .sobre-nos h2 {
+        font-size: 1.5rem;
+    }
+    
+    .sobre-nos p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-info h3 {
+        font-size: 20px;
+    }
+
+    .card-info p {
+        font-size: 14px;
+    }
+}
+/*galeria*/
+@media screen and (max-width: 768px) {
+    .fotos img {
+        max-width: 150px; /* Reduz o tamanho das fotos em telas pequenas */
+    }
+    .galeria h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Texto adicional para a seção */
+    .galeria p {
+        font-size: 1rem;
+    }
+    
+}
+/*galeria*/
+@media screen and (max-width: 480px) {
+    .galeria h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Texto adicional para a seção */
+    .galeria p {
+        font-size: 1rem;
+    }
+}
+/*servicos*/
+@media screen and (max-width: 828px) {
+    .servicos {
+        padding: 60px 15px; /* Ajuste de padding */
+    }
+
+    .servicos h1 {
+        font-size: 1.5rem; /* Reduz o tamanho do título */
+    }
+
+    .servicos p {
+        font-size: 1rem; /* Ajuste de tamanho da frase */
+    }
+
+    .btn {
+        padding: 10px 20px; /* Ajuste de tamanho do botão */
+    }
+
+    .servicos ul {
+        padding-left: 20px; /* Ajusta o padding da lista */
+    }
+
+    .servicos li {
+        font-size: 1rem; /* Ajuste no tamanho da lista */
+    }
+}
+/*servicos*/
+@media screen and (max-width: 480px) {
+    .servicos {
+        padding: 40px 10px; /* Ajuste de padding para telas pequenas */
+    }
+
+    .servicos h1 {
+        font-size: 1.5rem; /* Reduz ainda mais o título */
+    }
+
+    .servicos p {
+        font-size: 1rem; /* Ajuste de tamanho do texto */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Ajuste de tamanho do botão */
+    }
+
+    .servicos ul {
+        padding-left: 10px; /* Ajuste do padding */
+    }
+
+    .servicos li {
+        font-size: 1rem; /* Ajuste no tamanho da lista */
+    }
+}
+/* rodape */
+@media (max-width: 768px) {
+    #rodape p {
+      font-size: 0.8rem;
+    }
+  
+    .redes-sociais {
+      gap: 12px;
+    }
+  
+    .btn-rede-social {
+      width: 35px;
+      height: 35px;
+      font-size: 1rem;
+    }
+  }
+/* rodape */
+  @media (max-width: 480px) {
+    #rodape p {
+      font-size: 0.7rem;
+    }
+  
+    .redes-sociais {
+      gap: 10px;
+    }
+  
+    .btn-rede-social {
+      width: 30px;
+      height: 30px;
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .slideshow h2{
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    .slideshow p{
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .slideshow h2{
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+    .slideshow p{
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+  }
