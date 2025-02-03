@@ -1,6 +1,6 @@
 /* Ajuste de margens para seções */
 section {
-    scroll-margin-top: 135px; /* Isso vai ajustar o espaço para que o topo da seção não fique oculto */
+    scroll-margin-top: 130px; /* Isso vai ajustar o espaço para que o topo da seção não fique oculto */
     padding-top: 60px; /* Adiciona um pequeno espaçamento superior nas seções */
 }
 
