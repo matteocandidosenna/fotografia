@@ -252,10 +252,10 @@
   @media screen and (max-width: 480px){
     .slideshow h2{
         margin-bottom: 20px;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .slideshow p{
         margin-bottom: 20px;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
   }
